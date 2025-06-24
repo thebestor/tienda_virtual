@@ -36,20 +36,21 @@ otra_tienda.mostrar_stock()
 #Internamente descuenta stock al agregar.
 #Luego muestra el resumen del pedido.
 print("\n--- Pedido Cliente Normal ---")
-pedido1 = Pedido(cliente1)
-pedido1.agregar_item(p1, 2)  # agrega 2 auriculares
-print(pedido1)
+#pedido1 = Pedido(cliente1)
+#pedido1.agregar_item(p1, 2)  # agrega 2 auriculares
+#print(pedido1)
 
 # Pedido VIP
-print("\n--- Pedido Cliente VIP ---")
-pedido2 = Pedido(cliente2)
-pedido2.agregar_item(p1, 2)
-print(pedido2)
-pedido3 = Pedido(cliente2)
-pedido3.agregar_item(p2, 4)
+#print("\n--- Pedido Cliente VIP ---")
+#pedido2 = Pedido(cliente2)
+#pedido2.agregar_item(p1, 2)
+#print(pedido2)
+#pedido3 = Pedido(cliente2)
+#pedido3.agregar_item(p2, 4)
 
 # Agregar pedidos a la tienda
 mi_tienda.realizar_pedido(cliente1, [(p1, 2)])
+print("\n--- Pedido Cliente VIP ---")
 mi_tienda.realizar_pedido(cliente2, [(p1, 2)])
 otra_tienda.realizar_pedido(cliente2,[(p2,4)])
 
