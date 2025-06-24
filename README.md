@@ -29,4 +29,4 @@ El sistema permite:
 python main.py
 
 
-https://chatgpt.com/share/6855a169-ce48-8001-a346-ca1eb8173f3e
+
